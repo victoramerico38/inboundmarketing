@@ -1,0 +1,143 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Asap', sans-serif;
+}
+
+header {
+    margin: 0 auto;
+    border-bottom: 1px solid #1E3E8F;
+}
+
+body {
+    margin: 0 auto;
+    background-color: white;
+}
+
+section {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+section nav {
+    width: 30%;
+    display: block;
+    float: left;
+}
+
+
+
+ul li {
+    background-color: rgb(240, 235, 235);
+    margin: 1px;
+    margin-left: 20px;
+    padding: 8px;
+}
+
+nav li:hover {
+    background-color: antiquewhite;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0e2869;
+}
+
+h1 {
+    color: #0e2869;
+    font-size: 24px;
+    margin-left: 10px;
+}
+
+h2 {
+    margin-top: 15px;
+    color: #0e2869;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+h3 {
+    margin-top: 15px;
+    color: #0e2869;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+h4 {
+    margin-top: 15px;
+    color:#0e2869;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #19316d;
+    line-height: 17px;
+    margin-left: 10px;
+}
+
+section article {
+    background-color: white;
+    display: block;
+    float: left;
+    width: 70%;
+}
+
+article img {
+    width: 100%;
+    height: auto;
+}
+
+ol li {
+    margin-left: 25px;
+    margin-top: 10px;
+    color: #19316d;
+}
+
+.formulario {
+    height: 400px;
+    overflow: hidden;
+    padding-left:280px;
+    background-color: #b8c8d6;
+}
+
+.formulario h2 ,.formulario p {
+    padding-left: 125px;
+}
+
+footer {
+    background-color: #1E3E8F;
+    width: 100%;
+    height: 70px;
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+footer p {
+    color:white;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+@media (max-width:415px) {
+     html {
+        margin: 0;
+        padding: 0;
+        }
+    section nav, 
+    section article{
+        width: 100%;
+    }
+    ul li {
+        text-align: center;
+    }
+    section{
+        width: 100%;
+    }
+    article {
+        margin-top: 10px;
+    }
+}
