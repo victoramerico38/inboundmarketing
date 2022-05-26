@@ -1,3 +1,5 @@
+@import url(./saibamais.css);
+
 html {
     margin: 0;
     padding: 0;
@@ -40,6 +42,14 @@ nav li:hover {
 nav a {
     text-decoration: none;
     color: #007b00;
+}
+
+.banner {
+    background-image: url(../imagens/banner.png);
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 h1 {

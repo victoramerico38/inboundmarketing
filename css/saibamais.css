@@ -1,0 +1,571 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Asap', sans-serif;
+}
+
+header {
+    margin: 0 auto;
+    border-bottom: 1px solid #007b00;
+}
+
+body {
+    margin: 0 auto;
+    background-color: white;
+}
+
+.container {
+    font-size: 16px;
+    width: 100%;
+    margin: 0;
+    background-size: cover;
+    display: block;
+}
+
+.banner {
+    background-image: url(../imagens/banner.png);
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.legenda-container {
+    width: 30%;
+    height: 180px;
+    display: block;
+    float: right;
+    margin-right: 190px;
+    margin-top: 80px;
+}
+
+.text1 {
+    height: 60%;
+    border: 2px solid transparent;
+}
+
+.text1 h4,
+.text1 h5 {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button-cta {
+    text-align: center;
+    height: 30px;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+.button-cta a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: #007b00;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px rgb(39, 38, 38);
+}
+
+.container article {
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container2 {
+    margin: 0 auto;
+    height: 400px;
+    background-color: #74bb74;
+    overflow: hidden;
+    float: left;
+}
+
+.text2 .button-cta {
+    margin-left: 40px;
+}
+
+.text2 img,
+.text2 p {
+    width: 45%;
+    display: block;
+    float: left;
+    padding: 20px;
+}
+
+.text2 h1 {
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.text2 p {
+    font-size: 20px;
+    line-height: 25px;
+    color: white;
+}
+
+.perguntas {
+    width: 100%;
+    background-color: #50bd50 ;
+    overflow: hidden;
+    float: left;
+    height: 200px;
+    margin: 0 auto;
+    border-bottom: 1px solid #007b00;
+}
+
+.perguntas h1 {
+    margin-top: 20px;
+    margin-left: 25px;
+    color: white;
+}
+
+.perguntas dl {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.perguntas dt {
+    margin: 5px;
+    color: white;
+    font-size: 18px;
+}
+
+.perguntas dd {
+    margin-left: 6px;
+}
+
+.perguntas .button-cta ,
+.perguntas .duvidasfrequentes{
+    display: block;
+    width: 45%;
+    float: left;
+}
+
+.perguntas .button-cta {
+    margin-top: 100px;
+}
+
+.container3 {
+    width: 100%;
+    overflow: hidden;
+    float: left;
+}
+
+.container3 .formulario {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.container3 .formulario p,
+.container3 .formulario h2 {
+    padding-left: 0;
+    margin-left: 25px;
+}
+
+
+footer {
+    background-color: #74bb74;
+    width: 100%;
+    height: 70px;
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+footer p {
+    color:white;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+small {
+    color:white;
+}
+
+
+@media (max-width: 820px) {
+    html {
+        margin: 0;
+        padding: 0;
+     }
+    
+     .legenda-container {
+         margin-right: 15px;
+         width: 380px;
+         margin-top: 50px;
+     }
+
+    .legenda-container h4 {
+        font-size: 20px;
+    }
+
+    .container2 {
+        height: auto;
+    }
+
+    .container2 h1 {
+        font-size: 30px;
+        margin-left: 80px;
+    }
+
+    .container2 img{
+        width: 80%;
+        display: block;
+        float: left;
+        margin-left: 60px;
+    }
+    .container2 p {
+        width: 80%;
+        display: block;
+        float: left;
+        margin: 0 auto;
+        margin-left: 60px;
+        font-size: 18px;
+    }
+
+    .container2 .button-cta {
+        width: 80%;
+        float: left;
+        margin-left: 80px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .perguntas{
+        height: auto;
+    }
+
+    .perguntas .button-cta ,
+    .perguntas .duvidasfrequentes{
+        display: block;
+        width: 100%;
+        float: left;
+    }    
+
+    .perguntas h1 {
+        font-size: 20px;
+    }
+    .perguntas dt {
+        font-size: 18px;
+    }
+    .perguntas dd {
+        font-size: 16px;
+    }
+
+    .perguntas .button-cta {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .container3 {
+        height: auto;
+    }
+   
+    .container3 p {
+        font-size: 18px !important;
+    }
+
+
+
+    .formulario {
+        height: auto;
+        overflow: hidden;
+        padding-left:1px;
+        background-color: #ffffff;
+    }
+
+    .formulario h2 {
+        font-size: 20px;
+    }
+
+    .formulario h2 ,.formulario p {
+        padding-left: 1px;
+    } 
+    .formulario p {
+        font-size: 18px;
+        line-height: 18px;
+    }
+}
+
+
+@media (max-width: 540px) {
+    html {
+        margin: 0;
+        padding: 0;
+     }
+    
+    .legenda-container {
+         margin-right: 0;
+         margin-left: 10px;
+         width: 300px;
+         margin-top: 100px;
+
+    }
+
+    .legenda-container h4 {
+        font-size: 14px;
+    }
+
+    .legenda-container h5 {
+        font-size: 12px;
+    }
+
+    .text1 {
+        height: 40%;
+    }
+
+    .text1 h4,
+    .text1 h5 {
+        margin-top: 10px;
+    }
+
+    .button-cta {
+        text-align: center;
+        height: 30px;
+        width: 60%;
+        margin: 0 auto;
+        border-radius: 15px;
+        margin-bottom: 20px;
+    }
+
+    .button-cta a {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+        background-color: #007b00;
+        padding: 6px;
+        border-radius: 20px;
+        box-shadow: 2px 2px 10px rgb(39, 38, 38);
+    }
+    .container2 {
+        height: auto;
+    }
+
+    .container2 h1 {
+        font-size: 20px;
+        margin-left: 53px;
+    }
+
+    .container2 img{
+        width: 80%;
+        display: block;
+        float: left;
+        margin-left: 33px;
+    }
+    .container2 p {
+        width: 80%;
+        display: block;
+        float: left;
+        margin: 0 auto;
+        margin-left: 33px;
+        font-size: 16px;
+    }
+
+    .container2 .button-cta {
+        width: 80%;
+        float: left;
+        margin-left: 50px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+    .perguntas{
+        height: auto;
+    }
+
+    .perguntas .button-cta ,
+    .perguntas .duvidasfrequentes{
+        display: block;
+        width: 100%;
+        float: left;
+    }    
+
+    .perguntas h1 {
+        font-size: 20px;
+    }
+    .perguntas dt {
+        font-size: 16px;
+    }
+    .perguntas dd {
+        font-size: 14px;
+    }
+
+    .perguntas .button-cta {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        margin-right: 5px;
+    }
+
+    .container3 {
+        height: auto;
+    }
+   
+    .container3 p {
+        font-size: 14px !important;
+    }
+
+
+
+    .formulario {
+        height: auto;
+        overflow: hidden;
+        padding-left:1px;
+        background-color: #ffffff;
+    }
+
+    .formulario h2 {
+        font-size: 18px;
+    }
+
+    .formulario h2 ,.formulario p {
+        padding-left: 1px;
+    } 
+    .formulario p {
+        font-size: 14px;
+        line-height: 14px;
+    }
+}
+
+@media (max-width: 415px) {
+    html {
+        margin: 0;
+        padding: 0;
+     }
+    
+    .legenda-container {
+         margin-right: 0px;
+         width: 250px;
+         margin-top: 130px;
+
+    }
+
+    .legenda-container h4 {
+        font-size: 14px;
+    }
+
+    .legenda-container h5 {
+        font-size: 10px;
+    }
+
+    .text1 {
+        height: 30%;
+    }
+
+    .text1 h4,
+    .text1 h5 {
+        margin-top: 10px;
+    }
+
+    .button-cta {
+        text-align: center;
+        height: 30px;
+        width: 60%;
+        margin: 0 auto;
+        border-radius: 15px;
+        margin-bottom: 20px;
+    }
+
+    .button-cta a {
+        color: white;
+        text-decoration: none;
+        font-size: 10px;
+        background-color: #007b00;
+        padding: 6px;
+        border-radius: 20px;
+        box-shadow: 2px 2px 10px rgb(39, 38, 38);
+    }
+    .container2 {
+        height: auto;
+    }
+
+    .container2 h1 {
+        font-size: 16px;
+        margin-left: 44px;
+    }
+
+    .container2 img{
+        width: 80%;
+        display: block;
+        float: left;
+        margin-left: 24px;
+    }
+    .container2 p {
+        width: 80%;
+        display: block;
+        float: left;
+        margin: 0 auto;
+        margin-left: 24px;
+        font-size: 14px;
+    }
+
+    .container2 .button-cta {
+        width: 80%;
+        float: left;
+        margin-left: 50px;
+        margin-bottom: 10px;
+        margin-top: 0px;
+    }
+
+    .perguntas{
+        height: auto;
+    }
+
+    .perguntas .button-cta ,
+    .perguntas .duvidasfrequentes{
+        display: block;
+        width: 100%;
+        float: left;
+    }    
+
+    .perguntas h1 {
+        font-size: 16px;
+    }
+    .perguntas dt {
+        font-size: 14px;
+    }
+    .perguntas dd {
+        font-size: 12px;
+    }
+
+    .perguntas .button-cta {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        margin-right: 5px;
+    }
+
+    .container3 {
+        height: auto;
+    }
+   
+    .container3 p {
+        font-size: 12px !important;
+    }
+
+
+
+    .formulario {
+        height: auto;
+        overflow: hidden;
+        padding-left:1px;
+        background-color: #ffffff;
+    }
+
+    .formulario h2 {
+        font-size: 16px;
+    }
+
+    .formulario h2 ,.formulario p {
+        padding-left: 1px;
+    } 
+    .formulario p {
+        font-size: 14px;
+        line-height: 14px;
+    }
+}
+
